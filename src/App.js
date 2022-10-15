@@ -1,7 +1,8 @@
 // import './App.css';
 // import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
 
-import { PaymentRender } from "./Component/Pages/Payment/PaymentRender";
+import { Homepage } from "./Component/Pages/Homepage/Homepage";
+// import { PaymentRender } from "./Component/Pages/Payment/PaymentRender";
 
 // import './Component/Footer'
 // import './style.css'
@@ -12,8 +13,12 @@ import { PaymentRender } from "./Component/Pages/Payment/PaymentRender";
 // import Navbar from './Component/Navbar'
 
 function App() {
-	// return <Contact />
-	return <PaymentRender />;
+  // return <Contact />
+  return <Homepage />;
+}
+
+{
+  /* <PaymentRender />; */
 }
 // <div className="App">
 //   <Navbar />
