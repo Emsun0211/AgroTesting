@@ -2,7 +2,7 @@ import './Creataccount.css';
 import '../../../style.css';
 import Navbar from '../../Navbar';
 import Footer from '../../Footer';
-import {loginBg} from '../../../assets/login-bg.png'
+
 
 
 const CreateAccount = () => {
