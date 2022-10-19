@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "../../Footer";
+import Navbar from "../../Navbar";
 import "./About.css"
 
 export const About = () => {
 	return (
 		<>
+		<Navbar/>
 		<main id="the-main">
        
 	   <div>
@@ -143,6 +146,7 @@ export const About = () => {
         </div>
     </div>
   </main> 
+  <Footer/>
   </>
 	)
 
