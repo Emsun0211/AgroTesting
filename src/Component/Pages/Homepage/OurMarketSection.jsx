@@ -2,6 +2,7 @@ import React from "react"
 import "./HomePage.css"
 import "../../../style.css";
 import "./HomPageResponsiveness.css"
+import { Link } from "react-router-dom";
 
 const products = [
   {id: 1,
@@ -107,7 +108,7 @@ export function OurMarketMain () {
                 </svg>
               </div>
               <div className="by-me">
-                <button id="buy">Buy Now</button>
+               <Link to="/Payment"> <button id="buy">Buy Now</button> </Link>
               </div>
               </div>
               </div>
