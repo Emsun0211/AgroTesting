@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
     <nav>
         <div className="nav-width container">
-          <a href="/pages/homepage/homepage.html"><img src="/assets/logo.png" alt="" className="nav-logos" /></a>
+          <Link to="/"><img src="/assets/logo.png" alt="" className="nav-logos" /></Link>
           <div className="container search-list">
             <div className="nav-input-cart">
               <div className="input-search">
@@ -25,7 +27,7 @@ const Navbar = () => {
             </div>
             <div className="menu-list">
               <ul>
-                <a href="/pages/about/about.html"><li>About</li></a>
+                <Link to="/About"><li>About</li></Link>
                 <a href="/pages/contact/contact.html"><li>Contact</li></a>
                 <a href="/pages/homepage/homepage.html" /><li><a href="/pages/homepage/homepage.html">Blog
                   </a><div className="sub-menu1"><a href="/pages/homepage/homepage.html">

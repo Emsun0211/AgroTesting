@@ -73,25 +73,25 @@ export const About = () => {
                     <div className="faculties">
                         <div className="unit">
                             <div>
-                                <img src="/assets//nneoma.png" alt=""/>
+                                <img src="/assets/nneoma.png" alt="Oma"/>
                             </div>
                             <p>Oma Raymond</p>
                         </div>
                         <div className="unit">
                             <div>
-                                <img src="/assets//confidence.jpeg" alt=""/>
+                                <img src="/assets/confidence.jpeg" alt=" Confidence"/>
                             </div>
                             <p>Chidi Confidence</p>
                         </div>
                         <div className="unit">
                             <div>
-                                <img src="/assets//ebuka.png" alt=""/>
+                                <img src="/assets/ebuka.png" alt="Ebuka"/>
                             </div>
                             <p>Nwoporo Chukwuebuka</p>
                         </div>
                         <div className="unit">
                             <div>
-                                <img src="/assets//modinat.png" alt=""/>
+                                <img src="/assets/modinat.png" alt="Modinat"/>
                             </div>
                             <p>Modinat Adenike</p>
                         </div>
@@ -99,19 +99,19 @@ export const About = () => {
                     <div className = "faculties">
                         <div className="unit">
                             <div>
-                                <img src="/assets//emeka.png" alt=""/>
+                                <img src="/assets/emeka.png" alt="Emeka"/>
                             </div>
                             <p>Odezulu Chukuemeka</p>
                         </div>
                         <div className="unit">
                             <div>
-                                <img src="/assets//tola.png" alt=""/>
+                                <img src="/assets/tola.png" alt="Tola"/>
                             </div>
                             <p>Adetola Adeyeye</p>
                         </div>
                         <div className= "unit">
                             <div>
-                                <img src="/assets//susan.png" alt=""/>
+                                <img src="/assets/susan.png" alt="Susan"/>
                             </div>
                             <p>Odii Susan</p>
                         </div>
@@ -119,13 +119,13 @@ export const About = () => {
                     <div  className = "faculties">
                         <div className= "unit">
                             <div>
-                                <img src="/assets//godswill.png" alt=""/>
+                                <img src="/assets/godswill.png" alt="Godswill"/>
                             </div>
                             <p>Godswill Chibuzo</p>
                         </div>
                         <div className= "unit">
                             <div>
-                                <img src="/assets//gbenga.png" alt=""/>
+                                <img src="/assets/gbenga.png" alt="Gbenga"/>
                             </div>
                             <p> Akinukawe Gbenga</p>
                         </div>
@@ -133,7 +133,7 @@ export const About = () => {
                     <div  className = "faculties">
                         <div className= "unit">
                             <div>
-                                <img src="/assets//cynthia.png" alt=""/>
+                                <img src="/assets/cynthia.png" alt="Cynthia"/>
                             </div>
                             <p>Nwankwo Cynthia</p>
                         </div>
