@@ -1,39 +1,23 @@
 // import './App.css';
-<<<<<<< HEAD
-import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
-import FAQ from './Component/Pages/FAQ/FAQ';
+// import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
+// import FAQ from './Component/Pages/FAQ/FAQ';
 import { Routes, Route } from "react-router-dom";
+import { Homepage } from './Component/Pages/Homepage/Homepage';
+// import { Payment } from './Component/Pages/Homepage/Payment';
 
 function App() {
   return (
     <>
     <Routes>
-        <Route path="/" element={<Hom />} />
-        <Route path="about" element={<About />} />
-        <Route path="about" element={<FAQ /> } />
+        <Route path="/" element={<Homepage />} />
+        {/* <Route path="About" element={<About />} /> */}
+        {/* <Route path="about" element={<FAQ /> } />
         <Route path="about" element={<CreateAccount />} />
-        {/* <Route path="about" element={<Pay />} /> */}
+        <Route path="about" element={<Payment />} /> */}
+        {/* <Route path="about" element={< />} />  */}
       </Routes>
     </>
   );
-=======
-// import CreateAccount from './Component/Pages/Createaccount/CreateAccount';
-
-import { Homepage } from "./Component/Pages/Homepage/Homepage";
-// import { PaymentRender } from "./Component/Pages/Payment/PaymentRender";
-
-// import './Component/Footer'
-// import './style.css'
-
-// import { Contact } from './Component/Pages/Contact/Contact'
-
-// import Footer from './Component/Footer'
-// import Navbar from './Component/Navbar'
-
-function App() {
-  // return <Contact />
-  return <Homepage />;
->>>>>>> 1f8788857211d72f81028a3ee777f3c78bfc8003
 }
 
 {
