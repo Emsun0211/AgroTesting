@@ -7,6 +7,8 @@ import { Routes, Route } from "react-router-dom";
 import { Homepage } from "./Component/Pages/Homepage/Homepage";
 import { Login } from "./Component/Pages/Login/Login";
 import { AgroEducation } from "./Component/Pages/AgroEducation/AgroEducation";
+import { About } from "./Component/Pages/About/About";
+import { PaymentRender } from "./Component/Pages//Payment/PaymentRender";
 
 // import { Payment } from './Component/Pages/Homepage/Payment';
 
@@ -20,6 +22,8 @@ function App() {
 				<Route path='FAQ' element={<FAQ />} />
 				<Route path='Login' element={<Login />} />
 				<Route path='AgroEducation' element={<AgroEducation />} />
+        <Route path='About' element={<About />} />
+        <Route path='Payment' element={< PaymentRender/>} />
 
 				{/* 
         <Route path="about" element={<Payment />} /> */}
