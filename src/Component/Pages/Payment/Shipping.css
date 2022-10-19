@@ -161,6 +161,8 @@ form.login-form i.fa-eye {
 	transition: var(--transition);
 	cursor: pointer;
 	min-width: 100px;
+	position: relative;
+	left: 100%;
 }
 
 .shipping-form .shipping-proceed-btn:hover {

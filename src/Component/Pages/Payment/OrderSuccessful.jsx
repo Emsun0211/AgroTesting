@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const OrderSuccessful = () => {
 	return (
@@ -16,8 +17,9 @@ export const OrderSuccessful = () => {
 							<img src='/assets/mark-Icon.png' alt='' />
 						</div>
 					</div>
-
-					<button class='proceed-btn'>Proceed to Dasboard</button>
+					<Link to={"/"}>
+						<button class='proceed-btn'>Proceed to Dasboard</button>
+					</Link>
 				</div>
 			</div>
 			<div className='shipping-form shipping-form-active'>
